@@ -51,6 +51,7 @@ Get SSL certificates:
 ./init-letsencrypt.sh 
 ```
 (make sure that line `domains=(chat2.kuzovkov12.ru)` contains actual domain name)
+change domain to your actual value.
 Check that actual domain name is in `docker/nginx/conf.d/default.conf`
 Check that actual domain name is in `docker/coturn/turnserver.conf`
 ```bash
